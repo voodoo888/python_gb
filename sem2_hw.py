@@ -107,7 +107,7 @@ while len(list_of_values) > 0:
     index = indexes_5[random.randint(0, 7)]
     try:
         value = list_of_values.pop(index)
-        R_list.insert(i, value)
+        R_list.insert(index, value)
     except IndexError:
         continue
 
